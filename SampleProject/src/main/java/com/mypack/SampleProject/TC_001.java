@@ -36,8 +36,6 @@ public class TC_001 extends BasePage
 		String var = driver.findElement(By.id("twotabsearchtextbox")).getAttribute("value");
 		System.out.println(var);
 		
-		System.out.println("Hello");
-		
 	}
 
 }
